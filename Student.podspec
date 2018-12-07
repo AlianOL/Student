@@ -7,7 +7,9 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Student文本只打印一句话."
 
-  s.description  = "Student文本只打印一句话Student文本只打印一句话."
+s.description  = <<-DESC
+LZTool 是一个用于保存一些常用工具类的工具
+DESC
 
   s.homepage     = "https://github.com/AlianOL/Student"
 
