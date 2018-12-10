@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "StudentStudentStudentStudent"
+  s.description  = <<-DESC 
+                          LZTool 是一个用于保存一些常用工具类的工具
+                   DESC
 
   s.homepage     = "https://github.com/AlianOL/Student"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -50,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "李世达" => "lisd@6renyou.com" }
+  s.author             = { "Li" => "lisd@6renyou.com" }
   # Or just: s.author    = "李世达"
   # s.authors            = { "李世达" => "lisd@6renyou.com" }
   # s.social_media_url   = "http://twitter.com/李世达"
