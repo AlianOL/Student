@@ -19,5 +19,7 @@
     }
     return self;
 }
-
++ (void)studentMethod {
+    NSLog(@"student第二个方法");
+}
 @end
